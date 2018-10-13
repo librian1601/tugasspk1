@@ -1,4 +1,4 @@
-arrjalan = [{"dari":"0", "ke":"1", "jarak": 13},
+arrayjalan = [{"dari":"0", "ke":"1", "jarak": 13},
 		{"dari":"0", "ke":"2", "jarak": 4}, 
 		{"dari":"1", "ke":"3", "jarak": 6}, 
 		{"dari":"1", "ke":"2", "jarak": 2},
@@ -8,7 +8,7 @@ arrjalan = [{"dari":"0", "ke":"1", "jarak": 13},
 		{"dari":"4", "ke":"5", "jarak": 13}]
 
 def filterArrayList(item, value):
-	return [i for i in arrjalan if i[item] == value]
+	return [i for i in arrayjalan if i[item] == value]
 
 dari = "0"
 ke = "5"
