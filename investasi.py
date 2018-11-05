@@ -59,7 +59,7 @@ while lanjut == "y":
 
 
 for i in range(len(data)):
-	print "data anda ke-"+ str(i+1) +": investasi "+ data[i][0] +", persen "+ data[i][2] +", untung Rp"+ str(data[i][1])+", balik modal bulan ke-"+data[i][3]
+	print "data anda ke-"+ str(i+1) +": investasi "+ data[i][0] +", persen "+ data[i][2] +", untung Rp"+ str(data[i][1])+", balik modal bulan ke-"+str(data[i][3])
 
 #import csv
 #with open('data.csv', 'w', newline='') as f:
